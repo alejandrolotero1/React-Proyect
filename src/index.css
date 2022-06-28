@@ -1,13 +1,62 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Dancing+Script&family=Indie+Flower&family=Lobster&display=swap');
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #080808;
+}
+
+.img-logo {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #808080;
+
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  color: #ff4500;
+  font-size: 5rem;
+  text-shadow: -5px 0 0 #5e5e64;
+}
+
+header {
+  width: 100vw;
+  height: 10rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #0e0c0c;
+  flex-wrap: wrap;
+}
+
+nav {
+  width: 30rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c42206;  
+}
+
+a {
+  color: #222227;
+  margin-left: 1rem;
+  text-decoration: none;
+  font-size: 2.5rem;  
+}
+
+a:hover {
+  text-shadow: 0 0 5px #f5eeee;
+  color: #e8d4d1;
 }
