@@ -1,7 +1,12 @@
-import React from 'react'
+import React from 'react';
+import {ArticleUI} from '../../UI/ArticleUI/ArticleUI';
+import {ImageMain} from '../../UI/ImageMain/ImageMain';
 
 export const Main = () => {
   return (
-    <div>Main</div>
+    <main>
+      <ArticleUI />
+      <ImageMain />
+    </main>
   )
 }
